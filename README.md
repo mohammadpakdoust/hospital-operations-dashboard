@@ -105,9 +105,10 @@ The system is delivered through two interactive **Streamlit** dashboards and sta
 
 ### Option A: Using `uv` (Recommended)
 
-1. **Clone or navigate to the workspace directory**:
+1. **Clone the repository and enter the directory**:
    ```bash
-   cd "Assignment files"
+   git clone https://github.com/mohammadpakdoust/hospital-operations-dashboard.git
+   cd hospital-operations-dashboard
    ```
 
 2. **Sync the virtual environment and dependencies**:
