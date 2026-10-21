@@ -31,6 +31,10 @@ The system is delivered through two interactive **Streamlit** dashboards and sta
 ├── ed_dashboard.py                # Streamlit app: Emergency Department & CTAS analytics
 ├── test_map.html                  # Standalone interactive Plotly HTML map export
 │
+├── assets/                        # Dashboard preview snapshots & figures
+│   ├── dashboard_snapshot.png     # Admissions & occupancy comparison
+│   └── net_flow_snapshot.png      # Regional hospital 2-year net flow time series
+│
 └── data/                          # Centralized data directory
     ├── Data.xlsx                  # Master workbook (Attributes, Inpatient, ED, Bed Census, Redesign)
     ├── ed_consolidated_dataset.xlsx # Consolidated ED metrics (Provincial, Zone, Site breakdown)
@@ -38,6 +42,16 @@ The system is delivered through two interactive **Streamlit** dashboards and sta
     ├── data6.csv                  # Actual vs. Ideal nurse staffing benchmarking (2 RN : 1 LPN)
     └── ns_zones.geojson           # Geospatial boundary polygons for Nova Scotia Health zones
 ```
+
+---
+
+## 📸 Dashboard Previews & Operational Visualizations
+
+### Hospital Operations & Inpatient Census Overview
+![Hospital Operations Dashboard](assets/dashboard_snapshot.png)
+
+### Monthly Inpatient Net Flow Dynamics ($\text{Admissions} - \text{Discharges}$)
+![Monthly Net Flow Dynamics](assets/net_flow_snapshot.png)
 
 ---
 
