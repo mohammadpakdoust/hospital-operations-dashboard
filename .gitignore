@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments & Environment Files
+.venv/
+env/
+venv/
+ENV/
+.env
+.env.*
+*.env
+
+# uv / pip cache
+.cache/
+.uv/
+
+# Streamlit local state / secrets
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# Logs and runtime artifacts
+*.log
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Microsoft Excel temporary lock files
+~$*.xlsx
+~$*.xls
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+

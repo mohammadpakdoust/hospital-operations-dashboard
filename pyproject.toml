@@ -1,0 +1,19 @@
+[project]
+name = "hospital-map"
+version = "0.1.0"
+description = "Nova Scotia Hospital Locations Map and Healthcare Analytics"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "Nova Scotia Health" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "openpyxl>=3.1",
+    "pandas>=2.0",
+    "folium>=0.17",
+    "matplotlib>=3.8",
+    "streamlit>=1.35",
+    "streamlit-folium>=0.22",
+    "plotly>=6.6.0",
+]
